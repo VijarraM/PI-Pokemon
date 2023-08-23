@@ -17,5 +17,4 @@ const Navbar = () => {
     </div>
   );
 };
-console.log();
 export default Navbar;
