@@ -1,0 +1,56 @@
+.btn {
+  background-color: yellow;
+  border-radius: 10px;
+  color: blue;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: absolute;
+  top: 55%;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  right: 43%;
+  border: 5px solid #3564ae;
+}
+
+.btn:hover {
+  background-color: lightgreen;
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paginationContainer button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.paginationContainer button:hover {
+  background-color: #f2f2f2;
+}
+
+.paginationButton {
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.paginationButton.active {
+  background-color: #ee9a9a;
+  font-weight: bold;
+}
